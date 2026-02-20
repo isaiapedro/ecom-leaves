@@ -3,6 +3,7 @@ import { AboutPage } from './about-page/about-page';
 import { CollectionPage } from './collection-page/collection-page';
 import { FaqPage } from './faq-page/faq-page';
 import { HomePage } from './home-page/home-page';
+import { ProductComponent } from './product/product';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home-page", pathMatch: "full" },
@@ -22,4 +23,8 @@ export const routes: Routes = [
         path: 'faq-page',
         component: FaqPage,
     },
+    { 
+        path: 'collection-page/:id', 
+        component: ProductComponent 
+    }
 ];

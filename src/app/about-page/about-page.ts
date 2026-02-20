@@ -84,7 +84,6 @@ import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
         left: 0;
         right: 0;
         bottom: 0;
-        font-family: 'Helvetica', sans-serif;
       }
       .about-container h1 {
         text-align: left;
@@ -92,8 +91,9 @@ import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
         margin-left: 150px;
         font-size: 40px;
         font-weight: 600;
-        letter-spacing: -1px;
+        letter-spacing: -2px;
         margin-bottom: -5px;
+        font-family: 'Bebas Neue', sans-serif;
       }
 
       .about-container p {
@@ -102,6 +102,7 @@ import { RouterLink, RouterOutlet, RouterLinkActive } from '@angular/router';
         margin-left: 150px;
         margin-right: 100px;
         margin-bottom: 20px;
+        font-family: 'Helvetica Neue', sans-serif;
       }
 
       .carousel-viewport {
